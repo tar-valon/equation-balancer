@@ -93,10 +93,10 @@ def gauss_jordan(aug_mat):
         # The next row position should start from 1 row below(it should start from the next diagonal element)
         row_start_position += 1
 
-   #print("\nMatrix in row echleon form")
+   #print("\nMatrix in row echelon form")
    #print_matrix(aug_mat)
 
-    # Continue to transform matrix into reduced row echleon form
+    # Continue to transform matrix into reduced row echelon form
 
     # Start 1 row above from the last diagonal element
     new_row_start_position = stop_at_row - 2
@@ -126,7 +126,7 @@ def gauss_jordan(aug_mat):
         # The next temporary row position should be 1 row above
         temp_row_position -= 1
 
-    print("\nMatrix in reduced row echleon form")
+    print("\nMatrix in reduced row echelon form")
     print_matrix(aug_mat)
 
 
