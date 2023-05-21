@@ -143,6 +143,7 @@ def balancer(equation):
     final_coefficients.append(1)
 
     new_coefficients = normalize(final_coefficients)
+    print("\nFinal coefficients")
     print(new_coefficients)
 
     # Join coefficients with compounds
